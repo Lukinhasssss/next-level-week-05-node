@@ -17,7 +17,7 @@ class Setting {
   updated_at: Date
 
   @CreateDateColumn()
-  create_at: Date
+  created_at: Date
 
   constructor() {
     if (!this.id) {
